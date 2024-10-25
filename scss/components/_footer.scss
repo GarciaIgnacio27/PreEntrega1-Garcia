@@ -1,0 +1,32 @@
+footer{
+    background-color: $color-terciario;
+    color: black;
+    margin-top: 65px;
+    .sociales{
+        position: fixed;
+        bottom: 0%;
+        right: 0%;
+        a{
+            font-size: 17px;
+            img{
+                width: 50px;
+                height: 50px;
+                display: inline;
+            }
+        }
+    }
+    div{
+        p{
+            font-size: 25px;
+        }
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+/* Funcionalidades */
+
+/*! VARIABLES */
+$color-principal:rgb(2, 85, 2);
+$color-secundario: red;
+$color-terciario: rgb(177, 174, 174);
+
+
+/*! LISTAS */
+$colores: red, green, grey, black, white, bisque, aquamarine, coral;
+$font-size: 15px, 17px, 20px, 25px, 50px;
+$size: small, medium, large;
+
+
+/*! EXTEND */
+%boton{
+    border: 10px solid black;
+    background-color: black;
+    color: white;
+}
+
+/*! MIXIN */
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+

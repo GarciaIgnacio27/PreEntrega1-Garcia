@@ -29,10 +29,6 @@ header nav img{
     color: red;
 }
 
-.navbar-nav .nav-link.active{
-    color: red;
-}
-
 .navbar-brand{
     color: red;
 }
@@ -45,15 +41,6 @@ header nav img{
 
 
 /*  MAIN  */
-
-main div textarea{
-    width: 1000px;
-    height: 400px;
-}
-
-main form{
-    margin: 5px;
-}
 
 /*?---INDEX---*/
 
@@ -341,6 +328,10 @@ footer a{
     border: 0;
 }
 
+.credenciales h2{
+    text-align: center;
+}
+
 /*?---SEGURIDAD---*/
 
 .seguridad{
@@ -370,6 +361,10 @@ footer a{
     align-items: center;
     padding: 20px;
     border: 2px solid coral;
+}
+
+.objetivo h2{
+    text-align: center;
 }
 
 .objetivo p{
