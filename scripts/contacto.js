@@ -8,3 +8,13 @@ if ((nombreUsuario != "") && (contraseña !== "")) {
 } else {
     alert("ERROR: Se necesita estar registrado para poder enviar comentarios");
 }
+
+alert("Por ultimo, para demostrar que no es un bot, ingrese la palabra clave, la cuel es la anterior a FIAMBRE esta.")
+
+const real_password = "FIAMBRE";
+
+let password = prompt("Ingrese la palabra clave");
+
+while (password !== real_password) {
+    password = prompt("Ingrese la palabra clave");
+}
